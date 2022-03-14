@@ -4,9 +4,9 @@ Descrição: Projeto de automação de sinais para a IQ Option através do Teleg
 
 ### Lista de tarefas e atualizações
 
-- [ ] Instalar dependências.
-- [ ] Conectar com a IQ Option.
-- [ ] Conectar com o Telegram.
+- [x] Instalar dependências.
+- [x] Conectar com a IQ Option.
+- [x] Conectar com o Telegram.
 - [ ] Criar sistema de comunicação entre processos.
 - [ ] Criar sistema de eventos.
 - [ ] Configurar agendamentos.
