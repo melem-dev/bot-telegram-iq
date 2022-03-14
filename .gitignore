@@ -9,9 +9,12 @@ lerna-debug.log*
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
+<<<<<<< HEAD
 **/*.env
 **/node_modules
 
+=======
+>>>>>>> fa7079113efe84024896497d3c396f76c4d57de0
 # Runtime data
 pids
 *.pid
