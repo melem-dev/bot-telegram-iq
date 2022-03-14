@@ -15,14 +15,6 @@ const schedules = require("node-schedule");
 
 Events.on("telegram_message", ChatBot);
 
-Events.on("chatbot_message", ({ from, text }) => {
-  if (!from) {
-    return Bot.sendMessage(configs.admin_id, text);
-  }
-
-  Bot.sendMessage(from, text);
-});
-
 Events.on("python_message", (data) => {
   console.log(data);
 
